@@ -1,0 +1,20 @@
+1. #install laravel global
+>composer global require laravel/installer
+
+2. #create project
+>laravel new <app_name>
+
+3. #install laravel ui
+>composer require laravel/ui
+
+4. #install Bootstrap scaffolding
+>php artisan ui bootstrap
+
+5. #Compile Laravel Mix (run 2x)
+>npm install && npm run dev
+
+6. #Un-comment "$namespace" variable in (app\Providers\RouteServiceProvider.php)
+
+
+
+
