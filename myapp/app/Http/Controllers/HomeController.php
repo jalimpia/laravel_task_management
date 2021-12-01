@@ -4,14 +4,14 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Models\Product;
+use App\Models\Task;
 
 
 class HomeController extends Controller
 {
     public function index()
     {
-        $products = Product::all();
-        return view('index', compact('products'));
+        $tasks = Task::all();
+        return view('index', compact('tasks'));
     }
 }
